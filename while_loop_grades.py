@@ -1,12 +1,11 @@
 while True:
     
     user_choice=input("Press 'continue' or 'exit': ")
-    
-    
+        
     if user_choice=='continue':
         
             try:
-
+                
                 grade=int(input('Enter your score: '))
 
                 if grade >=90:
@@ -20,7 +19,6 @@ while True:
 
                 elif grade >=50:
                     print('B grade')
-
 
                 elif grade>=30:
                     print('C grade')
